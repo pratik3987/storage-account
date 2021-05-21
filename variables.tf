@@ -21,12 +21,7 @@ variable "account_replication_type" {
   
 }
 
-variable "app_service_plan_name" {
-  description = "name of app service plan"
-  
-}
-
-variable "function_name" {
-  description = "name of function"
+variable "tags" {
+  type = any
   
 }
