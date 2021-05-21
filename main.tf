@@ -1,8 +1,3 @@
-provider "azurerm" {
-   version = "=2.43.0"
-   features {}
-  }
-
 resource "azurerm_storage_account" "storage" {
   name                     = var.name
   resource_group_name      = var.resource_group_name
